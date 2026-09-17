@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Shield, ArrowUp } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 import { POLICY_META } from '../data/policyData';
 
 export default function Footer({ onScrollToTop }) {
@@ -10,7 +10,7 @@ export default function Footer({ onScrollToTop }) {
         <div className="footer-main">
           <div className="footer-brand-side">
             <Link to="/" className="footer-logo">
-              <Shield size={18} />
+              <img src="/logo.png" alt="Wallely Logo" className="footer-logo-img" />
               <span>{POLICY_META.appName}</span>
             </Link>
             <p className="footer-desc">

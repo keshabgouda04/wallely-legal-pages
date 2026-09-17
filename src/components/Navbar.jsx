@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { 
-  Shield, 
   Moon, 
   Sun, 
   Search, 
@@ -34,9 +33,7 @@ export default function Navbar({
       <div className="navbar-container">
         {/* Brand Logo */}
         <Link to="/" className="brand-logo-link">
-          <div className="logo-icon-box">
-            <Shield className="logo-shield" size={18} />
-          </div>
+          <img src="/logo.png" alt="Wallely Logo" className="brand-logo-img" />
           <span className="brand-name">{POLICY_META.appName}</span>
         </Link>
 
