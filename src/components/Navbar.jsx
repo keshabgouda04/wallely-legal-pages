@@ -40,7 +40,7 @@ export default function Navbar({
         {/* Center Nav Links */}
         <nav className="navbar-center-nav">
           <Link 
-            to="/" 
+            to="/privacy-policy" 
             className={`nav-link ${!isDeletePage ? 'active' : ''}`}
           >
             <FileText size={15} />

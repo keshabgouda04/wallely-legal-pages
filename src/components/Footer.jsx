@@ -21,7 +21,7 @@ export default function Footer({ onScrollToTop }) {
           <div className="footer-links-side">
             <div className="footer-col">
               <span className="footer-col-header">Navigation</span>
-              <Link to="/">Privacy Policy</Link>
+              <Link to="/privacy-policy">Privacy Policy</Link>
               <Link to="/delete-account">Delete Account</Link>
             </div>
 

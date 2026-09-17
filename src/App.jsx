@@ -82,7 +82,65 @@ function MainApp() {
             } 
           />
           <Route 
+            path="/privacy" 
+            element={
+              <PrivacyPolicyPage 
+                searchQuery={searchQuery} 
+                setSearchQuery={setSearchQuery}
+                scrollToSection={scrollToSection} 
+              />
+            } 
+          />
+          <Route 
+            path="/privacypolicy" 
+            element={
+              <PrivacyPolicyPage 
+                searchQuery={searchQuery} 
+                setSearchQuery={setSearchQuery}
+                scrollToSection={scrollToSection} 
+              />
+            } 
+          />
+          <Route 
+            path="/privacy_policy" 
+            element={
+              <PrivacyPolicyPage 
+                searchQuery={searchQuery} 
+                setSearchQuery={setSearchQuery}
+                scrollToSection={scrollToSection} 
+              />
+            } 
+          />
+          <Route 
+            path="/legal/privacy" 
+            element={
+              <PrivacyPolicyPage 
+                searchQuery={searchQuery} 
+                setSearchQuery={setSearchQuery}
+                scrollToSection={scrollToSection} 
+              />
+            } 
+          />
+          <Route 
+            path="/legal/privacy-policy" 
+            element={
+              <PrivacyPolicyPage 
+                searchQuery={searchQuery} 
+                setSearchQuery={setSearchQuery}
+                scrollToSection={scrollToSection} 
+              />
+            } 
+          />
+          <Route 
             path="/delete-account" 
+            element={<DeleteAccountPage />} 
+          />
+          <Route 
+            path="/delete_account" 
+            element={<DeleteAccountPage />} 
+          />
+          <Route 
+            path="/account-deletion" 
             element={<DeleteAccountPage />} 
           />
           <Route path="*" element={<Navigate to="/" replace />} />

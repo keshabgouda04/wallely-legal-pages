@@ -37,7 +37,7 @@ export default function DeleteAccountPage() {
     <div className="delete-page-clean">
       <div className="delete-page-container">
         {/* Back Link */}
-        <Link to="/" className="back-link">
+        <Link to="/privacy-policy" className="back-link">
           <ArrowLeft size={15} />
           <span>Back to Privacy Policy</span>
         </Link>
