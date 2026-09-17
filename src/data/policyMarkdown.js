@@ -3,14 +3,12 @@ export const RAW_MARKDOWN_POLICY = `# Privacy Policy for Wallely
 **Effective Date:** September 17, 2026  
 **Last Updated:** September 17, 2026  
 **Version:** 1.0.0  
-**Official Website:** https://wallely.com  
-**Support Email:** support@wallely.com  
-**Privacy Contact / DPO:** privacy@wallely.com  
+**Contact Email:** bill.management.pairalabs@gmail.com  
 
 ---
 
 ## 1. Introduction & Scope
-Welcome to **Wallely** ("we", "our", or "us"). We are committed to maintaining the trust and confidence of our users. This Privacy Policy applies to the Wallely mobile application (available on iOS and Android) and our official website at [https://wallely.com](https://wallely.com).
+Welcome to **Wallely** ("we", "our", or "us"). We are committed to maintaining the trust and confidence of our users. This Privacy Policy applies to the Wallely mobile application available on Android (APK / Google Play Store) and iOS (Apple App Store).
 
 Wallely is a smart bill management, receipt scanning, expense tracking, and digital visiting card application with family vault sharing. This document transparently describes the categories of personal and financial information we collect, how that information is processed, our technical safeguards, third-party infrastructure providers, and the comprehensive rights you hold over your data.
 
@@ -57,7 +55,7 @@ We use your information exclusively for legitimate, user-consented operational p
 - Delivering timely push alerts via Firebase Cloud Messaging so you avoid late fees and track expiring product warranties.
 - Allowing authorized family members to view and manage shared household bills when you invite them.
 - Generating shareable digital visiting cards and interactive QR codes.
-- Providing customer support and resolving crash reports sent to support@wallely.com.
+- Providing customer support and resolving app issues sent to bill.management.pairalabs@gmail.com.
 - Securing user accounts and preventing fraudulent access.
 
 ---
@@ -157,20 +155,17 @@ Under the California Consumer Privacy Act (CCPA) and CPRA:
 ---
 
 ## 13. Children's Privacy
-Wallely is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided personal data, we immediately delete that account and all related records. If you believe a child has registered, please contact **support@wallely.com**.
+Wallely is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided personal data, we immediately delete that account and all related records. If you believe a child has registered, please contact **bill.management.pairalabs@gmail.com**.
 
 ---
 
 ## 14. Changes to this Privacy Policy
-We may update this Privacy Policy from time to time. When changes are made, we will update the "Last Updated" timestamp at the top of this policy and notify users via in-app banner or email for significant revisions.
+We may update this Privacy Policy from time to time. When changes are made, we will update the "Last Updated" timestamp at the top of this policy and notify users via in-app banner or alert for significant revisions.
 
 ---
 
-## 15. Contact Us
-For any questions, concerns, or requests regarding this Privacy Policy, please contact us:
+## 15. Contact Information
+For any questions, concerns, or requests regarding this Privacy Policy, please contact:
 
-- **General Support:** support@wallely.com
-- **Privacy Officer / DPO:** privacy@wallely.com
-- **Official Website:** https://wallely.com
-- **Dedicated Account Deletion Page:** https://wallely.com/delete-account
+- **Email:** bill.management.pairalabs@gmail.com
 `;

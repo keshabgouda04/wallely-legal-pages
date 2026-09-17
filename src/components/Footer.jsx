@@ -20,17 +20,14 @@ export default function Footer({ onScrollToTop }) {
 
           <div className="footer-links-side">
             <div className="footer-col">
-              <span className="footer-col-header">Pages</span>
+              <span className="footer-col-header">Navigation</span>
               <Link to="/">Privacy Policy</Link>
               <Link to="/delete-account">Delete Account</Link>
             </div>
 
             <div className="footer-col">
-              <span className="footer-col-header">Contact</span>
+              <span className="footer-col-header">Support</span>
               <a href={`mailto:${POLICY_META.supportEmail}`}>{POLICY_META.supportEmail}</a>
-              <a href={POLICY_META.websiteUrl} target="_blank" rel="noopener noreferrer">
-                wallely.com
-              </a>
             </div>
           </div>
         </div>

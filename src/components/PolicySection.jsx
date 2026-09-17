@@ -106,19 +106,13 @@ export default function PolicySection({ section, searchQuery }) {
       {section.tableType === 'retention' && <RetentionTable />}
       {section.highlightType === 'deletionGuide' && <DataDeletionGuide />}
 
-      {/* Contact Cards in Section 15 */}
+      {/* Contact Card in Section 15 */}
       {section.contactCards && (
         <div className="contact-clean-grid">
           <div className="contact-clean-card">
-            <h4>Support & Data Requests</h4>
-            <p>For general inquiries, account assistance, and data export:</p>
+            <h4>Contact & Support Desk</h4>
+            <p>For general inquiries, privacy questions, and data assistance regarding the Wallely mobile application:</p>
             <a href={`mailto:${POLICY_META.supportEmail}`}>{POLICY_META.supportEmail}</a>
-          </div>
-
-          <div className="contact-clean-card">
-            <h4>Privacy Officer & DPO</h4>
-            <p>For formal compliance, GDPR, and CCPA inquiries:</p>
-            <a href={`mailto:${POLICY_META.dpoEmail}`}>{POLICY_META.dpoEmail}</a>
           </div>
         </div>
       )}

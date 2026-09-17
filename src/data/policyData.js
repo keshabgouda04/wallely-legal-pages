@@ -3,10 +3,9 @@ export const POLICY_META = {
   effectiveDate: "September 17, 2026",
   lastUpdated: "September 17, 2026",
   version: "1.0.0",
-  websiteUrl: "https://wallely.com",
-  supportEmail: "support@wallely.com",
-  dpoEmail: "privacy@wallely.com",
-  appPurpose: "A smart bill management, receipt scanning, expense tracking, and digital visiting card application with collaborative family vault sharing."
+  supportEmail: "bill.management.pairalabs@gmail.com",
+  dpoEmail: "bill.management.pairalabs@gmail.com",
+  appPurpose: "A smart bill management, receipt scanning, expense tracking, and digital visiting card mobile application with collaborative family vault sharing."
 };
 
 export const QUICK_HIGHLIGHTS = [
@@ -70,7 +69,7 @@ export const THIRD_PARTY_PROVIDERS = [
     service: "Optical Character Recognition (OCR) & Parsing",
     purpose: "Extracts text, totals, currency, merchant name, and transaction dates from uploaded receipt photos to automate bill entry.",
     dataShared: "Scanned receipt image snippets strictly for text extraction. Images are never used to train public third-party AI models.",
-    privacyUrl: "https://wallely.com/privacy-policy",
+    privacyUrl: "",
     securityTier: "Stateless processing over encrypted HTTPS connections; parsed data stored only in user's private database."
   }
 ];
@@ -139,13 +138,13 @@ export const SECTIONS = [
     title: "Introduction & Scope",
     icon: "Compass",
     content: `
-Welcome to **Wallely** ("we", "our", or "us"). We are committed to maintaining the trust and confidence of our users. This Privacy Policy governs your use of the Wallely mobile application (available on iOS and Android) and our official website at [https://wallely.com](https://wallely.com).
+Welcome to **Wallely** ("we", "our", or "us"). We are committed to maintaining the trust and confidence of our users. This Privacy Policy governs your use of the Wallely mobile application available on Android (APK / Google Play Store) and iOS (Apple App Store).
 
 Wallely is a smart bill management, receipt scanning, expense tracking, and digital visiting card application with family vault sharing. This document transparently describes the categories of personal and financial information we collect, how that information is processed, our technical safeguards, third-party infrastructure providers, and the comprehensive rights you hold over your data.
 
 This policy is designed to comply with the **General Data Protection Regulation (GDPR)**, the **California Consumer Privacy Act (CCPA / CPRA)**, Google Play Developer Policies (including User Data & Account Deletion Requirements), and Apple App Store Review Guidelines (Guideline 5.1.1).
 
-By creating an account or using Wallely, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with our practices, please discontinue use of our application.
+By creating an account or using the Wallely mobile application, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with our practices, please discontinue use of the application.
     `
   },
   {
@@ -226,7 +225,7 @@ We process your personal information based on lawful grounds (contractual necess
       "**Delivering Timely Alerts:** Sending push notifications via Firebase Cloud Messaging so you avoid late fees and track expiring product warranties.",
       "**Family Vault Collaboration:** Allowing authorized family members to view and manage shared household bills when you invite them.",
       "**Digital Visiting Card Exchange:** Generating your personal QR card for seamless professional networking.",
-      "**Customer Support & Bug Resolution:** Investigating customer support inquiries sent to support@wallely.com and resolving crashes.",
+      "**Customer Support & Bug Resolution:** Investigating user inquiries sent to bill.management.pairalabs@gmail.com and diagnosing app issues.",
       "**Security & Fraud Mitigation:** Protecting our systems, preventing unauthorized access, and validating authenticated sessions."
     ]
   },
@@ -312,7 +311,7 @@ Under global privacy standards (including GDPR, CCPA/CPRA, and applicable state 
       "**Right to Access & Review:** View all profile data, bill records, uploaded media, and visiting cards within the app at any time.",
       "**Right to Rectification:** Update or correct any inaccurate personal or financial entry directly through the app interface.",
       "**Right to Erasure (Right to be Forgotten):** Delete your account and all associated records directly in the app under Profile → Delete Account.",
-      "**Right to Data Portability:** Request an export of your structured bill and profile data in a machine-readable format by contacting our support desk.",
+      "**Right to Data Portability:** Request an export of your structured bill and profile data by emailing our support desk at bill.management.pairalabs@gmail.com.",
       "**Right to Withdraw Consent:** Revoke device permissions (Camera, Media, Notifications) anytime in device system settings.",
       "**Right to Non-Discrimination:** We will never penalize, discriminate, or degrade service quality for exercising any of your privacy rights."
     ]
@@ -353,7 +352,7 @@ For residents of California under the California Consumer Privacy Act (CCPA) and
     content: `
 Wallely is not directed to children under 13 years of age (or under 16 in certain jurisdictions). 
 
-We do not knowingly collect or solicit personal information from children under 13. If we learn that we have collected personal data from a child under 13 without verified parental consent, we will promptly delete that account and all related data from our servers. Parents or guardians who believe their child has registered may contact us immediately at **support@wallely.com**.
+We do not knowingly collect or solicit personal information from children under 13. If we learn that we have collected personal data from a child under 13 without verified parental consent, we will promptly delete that account and all related data from our servers. Parents or guardians who believe their child has registered may contact us at **bill.management.pairalabs@gmail.com**.
     `
   },
   {
@@ -364,7 +363,7 @@ We do not knowingly collect or solicit personal information from children under 
     content: `
 We may update this Privacy Policy from time to time to reflect new app capabilities, technical enhancements, or legal requirements. 
 
-When material changes are made, we will update the **"Last Updated"** date at the top of this document and notify users through an in-app alert or email notice where appropriate. We encourage you to review this policy periodically.
+When material changes are made, we will update the **"Last Updated"** date at the top of this document and notify users through an in-app alert where appropriate. We encourage you to review this policy periodically.
     `
   },
   {
